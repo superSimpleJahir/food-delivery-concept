@@ -1,0 +1,499 @@
+/* ===== Google fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/* ==== nev area ==== */
+header {
+  border-bottom: 1px solid #D4D7E5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #9093A6;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a img {
+  margin-bottom: 5px;
+}
+
+nav ul .mobileMenu {
+  width: 48px;
+  border-radius: 25px;
+  background: #FFF;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
+  padding: 12px 10px 10px 12px;
+}
+
+/* ===== Hero section ===== */
+.heroArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0 48px 0;
+}
+
+.left h1 {
+  color: #3F4255;
+  font-family: 'Poppins', sans-serif;
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 2.9px;
+  margin-bottom: 88px;
+}
+
+.left .row {
+  display: flex;
+  gap: 24px;
+}
+
+.left .row .coll {
+  padding: 16px 24px;
+  border-radius: 4px;
+  border: 2px solid #FFE145;
+}
+
+.left .coll h3 {
+  color: #3F4255;
+  text-align: center;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.left .coll p {
+  color: #3F4255;
+  text-align: center;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.right {
+  position: relative;
+}
+
+.right .lee {
+  position: absolute;
+  left: -150px;
+  bottom: 70px;
+}
+
+.right .position {
+  position: relative;
+}
+
+.right .position img {
+  position: absolute;
+  right: 89px;
+  bottom: 63px;
+}
+
+.right .position span {
+  position: absolute;
+  right: 17px;
+  bottom: 40px;
+}
+
+.right .box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 24px 25px 24px 92px;
+  background: #fff;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+  left: -646px;
+  bottom: -50px;
+}
+
+.right .box .coll {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+}
+
+/* ===== restaurent ===== */
+
+.restaurent {
+  margin: 48px auto 72px auto;
+}
+
+.restaurent .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.restaurent .row1 {
+  padding-bottom: 48px;
+}
+
+.restaurent .row1 h3 {
+  color: #3F4255;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 2.88px;
+}
+
+.restaurent .row1 p {
+  padding: 16px 24px;
+  border-radius: 4px;
+  background: #F2F4FA;
+  color: #9093A6;
+  text-align: center;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.restaurent .row2 .coll {
+  border-radius: 4px;
+  box-shadow: 0px 2px 16px 0px rgba(60, 62, 74, 0.08);
+}
+
+.nearestRestaurants {
+  background: #F2F4FA;
+  padding: 80px 0;
+}
+
+.nearestRestaurants .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nearestRestaurants .coll h2 {
+  color: #3F4255;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 2.88px;
+  margin-bottom: 24px;
+}
+
+.nearestRestaurants .coll p {
+  color: #3F4255;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.nearestRestaurants form {
+  display: flex;
+  height: 72px;
+}
+
+.nearestRestaurants form .input {
+  display: flex;
+  width: 336px;
+  padding: 24px 16px;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #FFF;
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+.nearestRestaurants form input {
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+
+.nearestRestaurants form input::placeholder {
+  color: #9093A6;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+.nearestRestaurants form button {
+  border-radius: 4px;
+  background: #FFE145;
+  padding: 28px 24px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===== specialities ===== */
+.specialities {
+  margin: 72px auto;
+}
+
+.specialities .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specialities .row1 {
+  margin-bottom: 48px;
+}
+
+.specialities .row1 h3 {
+  color: #3F4255;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 2.88px;
+}
+
+.specialities .row1 p {
+  color: #9093A6;
+  text-align: center;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 16px 24px;
+  border-radius: 4px;
+  background: #F2F4FA;
+}
+
+.specialities .row2 .coll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  width: 136px;
+  border-radius: 6px;
+  background: #FFF;
+  box-shadow: 0px 2px 16px 0px rgba(60, 62, 74, 0.08);
+  padding: 24px 8px;
+}
+
+.specialities .row2 .coll p {
+  color: #313030;
+  text-align: center;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+/* ===== usp ===== */
+
+.usp {
+  background-image: url(./img/bg.png);
+}
+
+.usp .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 56px 0 45px 0;
+  gap: 82px;
+}
+
+.usp .coll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.usp .coll h2 {
+  width: 126px;
+  height: 126px;
+  background: #FFE145;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.usp .coll p {
+  color: #3F4255;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.usp .coll .round,
+.usp .coll .round1,
+.usp .coll .round2,
+.usp .coll .round3 {
+  width: 127px;
+  height: 127px;
+  border: 1px solid #B79C10;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.usp .coll .round {
+  top: -22px;
+  left: 0;
+}
+
+.usp .coll .round1 {
+  top: -22px;
+  left: 6px;
+}
+
+.usp .coll .round2 {
+  top: -22px;
+  left: 10px;
+}
+
+.usp .coll .round3 {
+  top: -22px;
+  left: 31px;
+}
+
+.map {
+  margin: 72px auto;
+}
+
+/* ===== instagram ===== */
+.instagram h3 {
+  color: #313030;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 2.88px;
+  margin-bottom: 12px;
+}
+
+.instagram h3 span {
+  color: #9093A6;
+}
+
+.instagram .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+footer {
+  background: #3F4255;
+  margin: 72px auto 0 auto;
+  padding: 48px 0;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 50px;
+}
+
+footer .row .coll .line {
+  width: 296px;
+  height: 1px;
+  background: #D4D7E5;
+  margin: 48px 0;
+}
+
+footer .row .coll .dowenlod {
+  display: flex;
+  gap: 10px;
+}
+
+footer .row .coll .dowenlod img {
+  cursor: pointer;
+}
+
+footer .row .coll1 {
+  display: flex;
+  gap: 83px;
+}
+
+footer .row .subColl h4 {
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+footer .row .subColl li {
+  margin-bottom: 16px;
+}
+
+footer .row .subColl li a {
+  color: #D4D7E5;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.dowenFooter {
+  padding: 52px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dowenFooter .coll1 {
+  display: flex;
+  gap: 24px;
+}
+
+.dowenFooter .coll {
+  display: flex;
+  gap: 60px;
+}
+
+.dowenFooter .coll1 img {
+  cursor: pointer;
+}
+
+.dowenFooter .coll a {
+  color: #FFF;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
